@@ -1,0 +1,632 @@
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .dashboard-cardBlock .row-gap {
+        --bs-gutter-x: 10px;
+    }
+    .dashboard-cardBox {
+        padding: 20px 14px;
+        gap: 10px;
+    }
+    .dash-cardNo {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .dueDate {
+        font-size: 9px;
+        padding: 5px 7px;
+        margin-top: 2px;
+    }
+    .dash-card-subText {
+        font-size: 14px;
+    }
+    .dash-heading {
+        font-size: 26px;
+    }
+    .dash-icons {
+        width: 50px;
+        height: 50px;
+        flex: 0 0 50px;
+    }
+    .dash-icons svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .dashboard-cardBlock .row-gap {
+        --bs-gutter-x: 22px;
+        --bs-gutter-y: 22px;
+    }
+    .statistics-card-details {
+        margin-top: 28px;
+    }
+    .card-headerBox {
+        margin-bottom: 16px;
+    }
+    .card-heading-box h3 {
+        font-size: 24px;
+        margin-bottom: 1px;
+    }
+    .dash-heading {
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .white_mainBox .page-title-heading {
+        display: none;
+    }
+
+    .only-mobile-view {
+        display: none;
+    }
+
+    .is-folded .side_nav {
+        width: 80px
+    }
+
+    .is-folded .side_nav .side_nav_inner .sideNav_menu {
+        overflow-x: hidden
+    }
+
+    .is-folded .side_nav .dash_nav_item>a {
+        justify-content: center;
+        width: 48px;
+    }
+
+    .is-folded .side_nav:hover .dash_nav_item>a {
+        width: 100%;
+    }
+
+    .is-folded .side_nav .side_nav_inner .sideNav_menu>li>a .title_dash_nav {
+        display: none
+    }
+
+    .is-folded .side_nav .side_nav_inner .sideNav_menu li .icon_holder {
+        flex: 0 0 21px;
+    }
+
+    .is-folded .side_nav .side_nav_inner .sideNav_menu li .arrowIconSubmenu {
+        opacity: 0
+    }
+
+    .is-folded .side_nav .side_nav_inner .sideNav_menu li .subMenuSide {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.35s ease;
+    }
+
+    .is-folded .side_nav:hover {
+        width: 280px
+    }
+
+    .is-folded .side_nav:hover .side_nav_inner .sideNav_menu>li>a .title_dash_nav {
+        display: inline-block
+    }
+
+    .is-folded .side_nav:hover .side_nav_inner .sideNav_menu li .arrowIconSubmenu {
+        opacity: 1
+    }
+
+    .is-folded .side_nav:hover .side_nav_inner .sideNav_menu li .subMenuSide.show {
+        height: auto;
+        display: block;
+    }
+
+    .is-folded .side_nav:hover .side_nav_inner .sideNav_menu li .icon_holder {
+        flex: 0 0 40px;
+        text-align: center;
+    }
+
+
+    .is-folded .dash_header .dash_logo {
+        width: 80px
+    }
+
+    .is-folded .dash_header .dash_logo img {
+        display: none
+    }
+
+    .is-folded .dash_header .dash_logo .logo_fold {
+        display: block;
+        height: 51px;
+        width: 100;
+    }
+
+    .is-folded .page_container {
+        padding-left: 80px
+    }
+
+
+
+}
+
+@media only screen and (max-width: 991.98px) {
+    .status {
+        font-size: 15px;
+    }
+    .download-btn {
+        font-size: 14px;
+        min-width: 100px;
+    }
+    .theme-btn {
+        font-size: 15px;
+    }
+    .faq_wrapper .accordion-button {
+        font-size: 16px;
+        padding: 20px 22px;
+        padding-right: 38px;
+    }
+    .accordion-button::after {
+        right: 15px;
+        top: 22px;
+    }
+    .details-info-box {
+        padding-bottom: 14px;
+        margin-bottom: 18px;
+    }
+    .invoices-tableBlock .table>tbody tr td {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .dash_header {
+        height: 80px;
+    }
+
+    .outer-avtarbox {
+        margin: 20px 0 38px;
+    }
+
+    .white_mainBox {
+        padding: 30px 24px;
+    }
+
+    .white_mainBox .page-title-heading {
+        font-size: 26px;
+    }
+
+    .wrapper-top-heading {
+        margin-bottom: 22px;
+    }
+
+
+    .main_content {
+        padding: calc(80px + 30px) 32px 30px;
+        min-height: calc(100vh - 80px);
+    }
+
+    .nav_dash_wrpLeft .page-title-heading {
+        display: none;
+    }
+
+    .user-info-box {
+        display: none;
+    }
+
+    .side_nav .side_nav_inner .sideNav_menu {
+        padding-top: 24px;
+    }
+
+    .side_nav {
+        left: -325px
+    }
+
+    .page_container {
+        padding-left: 0px
+    }
+
+
+    .is-folded .side_nav {
+        left: 0;
+    }
+
+    .dash_header .dash_logo {
+        width: 235px;
+        /* background: transparent; */
+        border-bottom: 1px solid rgba(190, 209, 235, .3);
+    }
+
+    .dashIconFold svg path {
+        fill: var(--primary-color);
+    }
+
+    .nav_dash_wrap {
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .dashIconFold {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .nav_dash_wrpRight {
+        margin-left: auto;
+    }
+
+    .dash_userProfile {
+        display: none;
+    }
+
+    .is-folded .dashBoard_overLay {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media (max-width:767.98px) {
+    .activate-steps-modal .modal-dialog .modal-body {
+        padding: 22px 18px;
+    }
+    .activate-step-title {
+        font-size: 20px;
+    } 
+    .activate-step-text {
+        margin-bottom: 18px;
+    }
+    .setup-tabsBox .nav-link {
+        font-size: 16px;
+        min-width: 150px;
+    }
+    .setup-tabsBox #pills-tab {
+        margin-bottom: 30px;
+    }
+    .verify-withSpidBox {
+        margin-top: 50px;
+    }
+    .bank_transferStatus {
+        font-size: 15px;
+        padding: 18px 15px;
+    }
+    .user_dropdown img {
+        height: 38px;
+        width: 38px;
+        min-height: 38px;
+        min-width: 38px;
+    }
+
+    .dashIconFold {
+        margin-left: 10px;
+    }
+
+    .close-page {
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 30px;
+    }
+
+    .logo-box {
+        margin-bottom: 40px;
+    }
+
+    .login-title {
+        font-size: 25px;
+    }
+
+    .no-account {
+        margin: 28px auto 0;
+    }
+
+    .login-subtext {
+        font-size: 15px;
+    }
+
+    .breadcrumb_linkBox .breadcrumb-item+.breadcrumb-item::before {
+        width: 17px;
+        height: 10px;
+        background-size: 7px;
+        margin-top: 3px;
+    }
+
+    .breadcrumb-item {
+        font-size: 11px;
+    }
+
+    .filter-header.dash_headBox {
+        flex-direction: column;
+    }
+
+    .filter-search {
+        padding: 20px 18px 30px;
+    }
+
+    .white_mainBox {
+        padding: 20px 20px;
+        border-radius: 14px;
+    }
+    .edit-details {
+        height: 28px;
+        width: 28px;
+    }
+    .edit-details svg{
+        height: 16px;
+        width: 16px;
+    }
+
+    .custom-nav .nav .nav-link {
+        font-size: 16px;
+        padding: 0 10px 20px;
+    }
+
+    .custom-nav .nav {
+        gap: 10px;
+    }
+
+    .form-control {
+        min-height: 45px;
+    }
+
+    .select2-container .select2-selection--single {
+        min-height: 45px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .orBox {
+        height: 1px;
+        border-left: unset;
+        float: unset;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        margin: 50px 0 35px;
+    }
+
+    .or-text {
+        left: 50%;
+    }
+
+    .dash_header {
+        height: 70px;
+    }
+
+    .nav_dash_wrap {
+        padding: 5px 15px;
+    }
+
+    .dash_header .dash_logo {
+        padding-left: 15px;
+    }
+
+    .main_content {
+        padding: calc(70px + 15px) 15px 15px;
+    }
+
+    .side_nav {
+        top: 70px;
+    }
+
+    .form_input_box .form-group {
+        margin-bottom: 16px;
+    }
+
+    .login-header {
+        margin-bottom: 30px;
+    }
+
+    .info-data {
+        flex: 1 1 calc(100% - 230px);
+        white-space: normal;
+        word-break: break-word;
+        font-size: 14px;
+    }
+
+    .info-lable {
+        flex: 0 1 140px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media (min-width:575.98px) {
+    .modification-request-modal{
+        min-width: 554px;
+    }
+}
+@media (max-width:575.98px) {
+    .activate-steps-modal.otp-modal .modal-dialog {
+        max-width:100%;
+    }
+    .activate-steps-modal.otp-modal .modal-title {
+        font-size: 18px;
+    }
+    .activate-steps-modal.otp-modal .modal-dialog .modal-content {
+        padding: 20px 16px;
+    }
+    .action-submit-btn {
+        margin-top: 12px;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .theme-btn.btn-md {
+        min-width: 100%;
+    }
+    .theme-btn-border {
+        padding: 13px 10px;
+        width: 100%;
+    }
+    .theme-btn.theme-btn-border svg {
+        margin-right: 6px;
+    }
+    .verify-withSpidBox {
+        margin-top: 32px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .verify-withSpidBox .theme-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .theme-btn {
+        font-size: 14px;
+    }
+    .upload-card {
+        width: 100%;
+    }   
+    .theme-btn-border {
+        padding: 13px 12px;
+    }
+    .setup-tabsBox .nav-link {
+        font-size: 14px;
+        min-width: unset;
+    }
+    .dashboard-cardBox {
+        padding: 22px 14px;
+    }
+    .dash-heading {
+        font-size: 20px;
+    }
+    .dash-icons {
+        width: 55px;
+        height: 55px;
+        flex: 0 0 55px;
+    }
+    .dash-icons svg {
+        width: 28px;
+        height: 28px;
+    }
+    .dash-cardNo {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+    .statistics-block {
+        margin-top: 25px;
+        padding-top: 18px;
+    }
+    .card-subTilte {
+        font-size: 16px;
+    }
+    .card-body-block {
+        padding: 16px 15px;
+    }
+    .dropdown-toggle.dropdown_detal {
+        font-size: 13px;
+        min-width: 95px;
+    }
+    .card-body-block.padding-inline {
+        padding-inline: 22px;
+    }
+    .card-heading-box {
+        margin-bottom: 22px;
+        padding-bottom: 18px;
+    }
+    .overview-grhap {
+        height: auto;
+    }
+    .detail-value {
+        font-size: 14px;
+    }
+    .page-links {
+        font-size: 14px;
+    }
+    .detail-label {
+        font-size: 14px;
+    }
+    .status {
+        padding: 3px 12px 4px;
+    }
+    .details-info-box {
+        padding-bottom: 12px;
+        margin-bottom: 18px;
+    }
+
+    .detail-label {
+        font-size: 15px;
+    }
+
+    .detail-value {
+        font-size: 15px;
+    }
+
+    .dash_header .dash_logo {
+        width: 85px;
+    }
+
+    .filter-header .btn-md {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .custom-nav .nav .nav-link {
+        font-size: 14px;
+    }
+
+    .login-box {
+        min-width: 100%;
+        padding: 30px 16px;
+    }
+
+    .dash_header .dash_logo img {
+        display: none;
+    }
+
+    .dash_header .dash_logo .logo_fold {
+        display: block;
+        height: 60px;
+        width: 45px;
+    }
+
+    .side_nav {
+        width: 275px;
+    }
+
+    .avatar-upload .avatar-preview {
+        width: 80px;
+        height: 80px;
+    }
+
+    .user-id {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:490px) {
+    .activate-step-text {
+        margin-bottom: 18px;
+        align-items: end;
+        flex-direction: column-reverse;
+    }
+    .activate-step-header {
+        position: relative;
+    }
+    .steps-dot {
+        position: absolute;
+        top: 13px;
+        right: 0;
+    }
+    .step-pagination {
+        font-size: 20px;
+    }
+    .border-wrapper {
+        padding: 19px 16px;
+    }
+
+    .detail-value {
+        font-size: 14px;
+    }
+
+    .detail-label {
+        font-size: 14px;
+    }
+
+    .otp_verification {
+        gap: 15px;
+    }
+
+    .otp_verification .form-control.dark-form-control {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+
+    .otp_verification input {
+        font-size: 20px !important;
+    }
+}
