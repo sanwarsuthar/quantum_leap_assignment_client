@@ -44,6 +44,13 @@ export const notPrivateRoutes = createBrowserRouter([
     path: "/signup",
     element: <Signup />,
     
+  } ,{
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+  {
+    path: "/post",
+    element: <Post />,
   }
   
 ]);
